@@ -72,19 +72,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { name: "theme-color", content: "#0A0A0A" },
+      { title: "Mohammad Ashhar Nadeem — Director, AI & Cloud Engineering" },
+      {
+        name: "description",
+        content:
+          "Mohammad Ashhar Nadeem — Director of AI & Cloud Engineering at EXL. 20+ years architecting enterprise data platforms, cloud-first systems, and AI strategy.",
+      },
+      { name: "author", content: "Mohammad Ashhar Nadeem" },
+      { property: "og:title", content: "Mohammad Ashhar Nadeem — Director, AI & Cloud Engineering" },
+      {
+        property: "og:description",
+        content:
+          "Building intelligent enterprise platforms at the intersection of AI, cloud architecture, and data engineering.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
       },
     ],
   }),
@@ -96,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <HeadContent />
       </head>
@@ -107,6 +116,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
+
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
