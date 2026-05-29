@@ -88,7 +88,7 @@ const ROLES = [
   },
 ];
 
-];
+
 
 export function Experience() {
   return (
