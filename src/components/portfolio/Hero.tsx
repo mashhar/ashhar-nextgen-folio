@@ -36,12 +36,13 @@ export function Hero() {
             <span className="block text-foreground">Mohammad Ashhar</span>
             <span className="block text-gradient">Nadeem</span>
           </h1>
-
+          <p className="mt-7 max-w-2xl text-lg sm:text-xl leading-relaxed text-muted-foreground">
             Building intelligent enterprise platforms at the intersection of{" "}
             <span className="text-foreground">AI</span>,{" "}
             <span className="text-foreground">cloud architecture</span>, and{" "}
             <span className="text-foreground">data engineering</span> — turning data into measurable business outcomes.
           </p>
+
 
           {/* Role ticker */}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
