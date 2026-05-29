@@ -66,6 +66,9 @@ export function Hero() {
             <a
               href="#contact"
               className="glass inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-foreground transition hover:bg-[var(--surface-elevated)]"
+            >
+              Get in touch
+            </a>
             <a
               href="https://www.linkedin.com/in/ashhar"
               target="_blank"
@@ -74,6 +77,7 @@ export function Hero() {
             >
               LinkedIn ↗
             </a>
+
 
           </div>
         </motion.div>

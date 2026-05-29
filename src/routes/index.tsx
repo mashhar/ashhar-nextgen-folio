@@ -4,7 +4,9 @@ import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
 import { Expertise } from "@/components/portfolio/Expertise";
 import { Experience } from "@/components/portfolio/Experience";
+import { Projects } from "@/components/portfolio/Projects";
 import { Insights } from "@/components/portfolio/Insights";
+
 import { Contact } from "@/components/portfolio/Contact";
 
 export const Route = createFileRoute("/")({
