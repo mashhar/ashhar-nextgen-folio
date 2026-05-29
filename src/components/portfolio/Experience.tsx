@@ -2,7 +2,7 @@ import { Section } from "./Section";
 import { motion } from "motion/react";
 
 const ROLES = [
-const ROLES = [
+
   {
     role: "Director – Data & Cloud Engineering",
     company: "EXL",
