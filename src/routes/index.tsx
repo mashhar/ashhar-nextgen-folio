@@ -55,11 +55,10 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <About />
+        <Expertise />
         <Experience />
         <Projects />
-        <Insights />
-
-        <Experience />
         <Insights />
         <Contact />
       </main>
