@@ -33,18 +33,16 @@ export function Hero() {
           </div>
 
           <h1 className="mt-8 text-5xl sm:text-7xl md:text-8xl font-semibold tracking-tight leading-[1.02]">
-            <span className="block bg-[var(--gradient-text)] bg-clip-text text-transparent">
-              Mohammad Ashhar
-            </span>
+            <span className="block text-foreground">Mohammad Ashhar</span>
             <span className="block text-gradient">Nadeem</span>
           </h1>
-
           <p className="mt-7 max-w-2xl text-lg sm:text-xl leading-relaxed text-muted-foreground">
             Building intelligent enterprise platforms at the intersection of{" "}
             <span className="text-foreground">AI</span>,{" "}
             <span className="text-foreground">cloud architecture</span>, and{" "}
             <span className="text-foreground">data engineering</span> — turning data into measurable business outcomes.
           </p>
+
 
           {/* Role ticker */}
           <div className="mt-8 flex flex-wrap items-center justify-center gap-2">
@@ -73,13 +71,15 @@ export function Hero() {
               Get in touch
             </a>
             <a
-              href="https://www.linkedin.com/in/ashhar/"
+              href="https://www.linkedin.com/in/ashhar"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
               className="inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm font-medium text-muted-foreground transition hover:text-foreground"
             >
               LinkedIn ↗
             </a>
+
+
           </div>
         </motion.div>
 

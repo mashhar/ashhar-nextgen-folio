@@ -2,10 +2,11 @@ import { Section } from "./Section";
 import { motion } from "motion/react";
 
 const ROLES = [
+
   {
     role: "Director – Data & Cloud Engineering",
     company: "EXL",
-    period: "Nov 2023 – Present",
+    period: "2023 – Present",
     points: [
       "Driving AI and cloud innovation across analytics and data platforms for enterprise clients.",
       "Leading data engineering transformation on modern cloud architectures.",
@@ -14,9 +15,20 @@ const ROLES = [
     ],
   },
   {
+    role: "Sr Product Manager",
+    company: "WIN Home Inspection",
+    period: "2022 – 2023",
+    points: [
+      "Led product strategy for AI and data-driven proptech products serving a nationwide inspector network.",
+      "Partnered with engineering, design, and operations to ship scalable cloud-native platforms.",
+      "Optimized inspection workflows using ML and automation to improve homeowner outcomes.",
+      "Owned roadmap, discovery, and prioritization across multiple product surfaces.",
+    ],
+  },
+  {
     role: "Founder",
     company: "IntellicHUB",
-    period: "Dec 2022 – Nov 2023",
+    period: "2022 – 2023",
     points: [
       "Enabled non-tech entrepreneurs to ship apps using NoCode and AI tools.",
       "Built a platform bridging accessibility for business-first users.",
@@ -26,7 +38,7 @@ const ROLES = [
   {
     role: "Sr Business Solution Consultant",
     company: "Coforge",
-    period: "Apr 2019 – Aug 2022",
+    period: "2019 – 2022",
     points: [
       "Led enterprise consulting across major client engagements.",
       "Architected cloud-first solutions for digital transformation programs.",
@@ -37,7 +49,7 @@ const ROLES = [
   {
     role: "Business Solutions Consultant",
     company: "Coforge",
-    period: "Dec 2015 – Mar 2019",
+    period: "2015 – 2019",
     points: [
       "Delivered end-to-end business solutions for enterprise clients.",
       "Designed scalable integration architectures for complex systems.",
@@ -47,7 +59,7 @@ const ROLES = [
   {
     role: "Sr Product Lead – Mortgage Services",
     company: "First American Financial Corporation",
-    period: "Oct 2012 – Oct 2014",
+    period: "2012 – 2014",
     points: [
       "Led lender integration management for mortgage services product line.",
       "Owned product roadmap and stakeholder alignment across business units.",
@@ -57,7 +69,7 @@ const ROLES = [
   {
     role: "Business Systems Analyst Advisor",
     company: "Dell",
-    period: "Jun 2009 – Oct 2012",
+    period: "2009 – 2012",
     points: [
       "Advised on global product data systems strategy and architecture.",
       "Drove process optimization and data quality at enterprise scale.",
@@ -67,7 +79,7 @@ const ROLES = [
   {
     role: "System Analyst & Team Lead",
     company: "Infosys Technologies",
-    period: "Sep 2002 – May 2009",
+    period: "2002 – 2009",
     points: [
       "Led teams delivering complex enterprise applications.",
       "Progressed from developer to team lead across multiple project streams.",
@@ -75,6 +87,8 @@ const ROLES = [
     ],
   },
 ];
+
+
 
 export function Experience() {
   return (

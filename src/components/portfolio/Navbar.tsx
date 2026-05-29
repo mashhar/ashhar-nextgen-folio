@@ -4,9 +4,11 @@ const NAV = [
   { href: "#about", label: "About" },
   { href: "#expertise", label: "Expertise" },
   { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
   { href: "#insights", label: "Writing" },
   { href: "#contact", label: "Contact" },
 ];
+
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -64,7 +66,8 @@ export function Footer() {
           <span>Mohammad Ashhar Nadeem · © {new Date().getFullYear()}</span>
         </div>
         <div className="flex items-center gap-5 text-sm text-muted-foreground">
-          <a className="hover:text-foreground transition" href="https://www.linkedin.com/in/ashhar/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a className="hover:text-foreground transition" href="https://www.linkedin.com/in/ashhar" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+
           <a className="hover:text-foreground transition" href="https://ashharn.medium.com" target="_blank" rel="noreferrer">Medium</a>
           <a className="hover:text-foreground transition" href="mailto:ashharn@icloud.com">Email</a>
         </div>
