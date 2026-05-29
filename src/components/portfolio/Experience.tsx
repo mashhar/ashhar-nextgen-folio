@@ -35,6 +35,7 @@ const ROLES = [
       "Owned roadmap, discovery, and prioritization across multiple product surfaces.",
     ],
   },
+  {
     role: "Sr Business Solution Consultant",
     company: "Coforge",
     period: "2019 – 2022",
