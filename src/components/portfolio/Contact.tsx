@@ -2,8 +2,9 @@ import { Section } from "./Section";
 
 const LINKS = [
   { label: "Email", value: "ashharn@icloud.com", href: "mailto:ashharn@icloud.com" },
-  { label: "LinkedIn", value: "linkedin.com/in/ashhar", href: "https://www.linkedin.com/in/ashhar/" },
+  { label: "LinkedIn", value: "linkedin.com/in/ashhar", href: "https://www.linkedin.com/in/ashhar" },
   { label: "Medium", value: "ashharn.medium.com", href: "https://ashharn.medium.com" },
+  { label: "DataCamp", value: "datacamp.com/portfolio/ashharn", href: "https://www.datacamp.com/portfolio/ashharn" },
   { label: "Website", value: "ashharnadeem.in", href: "https://ashharnadeem.in" },
 ];
 
@@ -22,7 +23,7 @@ export function Contact() {
               key={l.label}
               href={l.href}
               target={l.href.startsWith("http") ? "_blank" : undefined}
-              rel="noreferrer"
+              rel="noreferrer noopener"
               className="glass group flex items-center justify-between rounded-2xl px-5 py-4 transition hover:border-primary/50"
             >
               <div>
