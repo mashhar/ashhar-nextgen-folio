@@ -30,11 +30,11 @@ const FALLBACK: MediumPost[] = [
     categories: ["Local LLMs"],
   },
   {
-    title: "Data Engineering: Navigating Microsoft Fabric, AWS, GCP, IBM Cloud Pack and More",
+    title: "Data Engineering: Navigating the Shift with Microsoft Fabric, AWS, GCP, IBM Cloud Pack, and More",
     link: "https://ashharn.medium.com/data-engineering-navigating-the-shift-with-microsoft-fabric-aws-gcp-ibm-cloud-pack-and-more-f06d9094af5f",
     pubDate: "Wed, 02 Oct 2024 08:01:22 GMT",
     snippet: "Data platforms have evolved from on-prem monoliths to sophisticated cloud-native systems.",
-    image: null,
+    image: "https://cdn-images-1.medium.com/max/1024/1*ov9uvGQThcWMU7bCPXRoiw.jpeg",
     categories: ["Data Engineering"],
   },
 ];
