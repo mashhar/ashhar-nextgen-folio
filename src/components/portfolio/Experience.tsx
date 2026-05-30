@@ -17,7 +17,7 @@ const ROLES = [
   {
     role: "Founder",
     company: "IntellicHUB",
-    period: "2023 - Present",
+    period: "2023 - 2023",
     points: [
       "Enabled non-tech entrepreneurs to ship apps using NoCode and AI tools.",
       "Built a platform bridging accessibility for business-first users.",
