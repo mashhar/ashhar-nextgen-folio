@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Mohammad Ashhar Nadeem — Director, AI & Cloud Engineering" },
+      { name: "description", content: "Ashhar's Nexus is a modern, interactive personal portfolio website showcasing developer expertise." },
+      { property: "og:description", content: "Ashhar's Nexus is a modern, interactive personal portfolio website showcasing developer expertise." },
+      { name: "twitter:description", content: "Ashhar's Nexus is a modern, interactive personal portfolio website showcasing developer expertise." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f38eda40-d1f0-45de-93f1-cd21200ef798/id-preview-aee66b2b--f7339142-e859-48c6-a30d-0cc7ec6017b3.lovable.app-1780167427173.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f38eda40-d1f0-45de-93f1-cd21200ef798/id-preview-aee66b2b--f7339142-e859-48c6-a30d-0cc7ec6017b3.lovable.app-1780167427173.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
