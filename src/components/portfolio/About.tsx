@@ -24,7 +24,7 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title={<>Executive profile.<br /><span className="text-muted-foreground">Engineering depth.</span></>}
+      title={<>Executive profile.<br /><span className="text-gradient">Engineering depth.</span></>}
       description={
         <>
           A seasoned Director of AI &amp; Cloud Engineering delivering enterprise-scale digital transformation —
