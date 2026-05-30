@@ -61,7 +61,13 @@ export function Insights() {
     staleTime: 1000 * 60 * 30,
   });
 
-  const posts = (data && data.length > 0 ? data : FALLBACK).slice(0, 12);
+  const imageOverrides: Record<string, string> = FALLBACK.reduce((acc, p) => {
+    if (p.image) acc[p.link] = p.image;
+    return acc;
+  }, {} as Record<string, string>);
+  const posts = (data && data.length > 0 ? data : FALLBACK)
+    .slice(0, 12)
+    .map((p) => (p.image ? p : { ...p, image: imageOverrides[p.link] ?? null }));
 
   return (
     <Section
