@@ -6,7 +6,7 @@ const ROLES = [
   {
     role: "Director – Data & Cloud Engineering",
     company: "EXL",
-    period: "2023 – Present",
+    period: "2023 - 2023",
     points: [
       "Driving AI and cloud innovation across analytics and data platforms for enterprise clients.",
       "Leading data engineering transformation on modern cloud architectures.",
@@ -17,7 +17,7 @@ const ROLES = [
   {
     role: "Founder",
     company: "IntellicHUB",
-    period: "2023 – Present",
+    period: "2023 - 2023",
     points: [
       "Enabled non-tech entrepreneurs to ship apps using NoCode and AI tools.",
       "Built a platform bridging accessibility for business-first users.",
