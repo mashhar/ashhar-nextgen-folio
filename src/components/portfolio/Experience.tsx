@@ -17,7 +17,7 @@ const ROLES = [
   {
     role: "Founder",
     company: "IntellicHUB",
-    period: "2023 - 2023",
+    period: "2022 - 2023",
     points: [
       "Enabled non-tech entrepreneurs to ship apps using NoCode and AI tools.",
       "Built a platform bridging accessibility for business-first users.",
@@ -27,7 +27,7 @@ const ROLES = [
   {
     role: "Sr Product Manager",
     company: "WIN Home Inspection",
-    period: "2022 – 2023",
+    period: "2022 – 2022",
     points: [
       "Led product strategy for AI and data-driven proptech products serving a nationwide inspector network.",
       "Partnered with engineering, design, and operations to ship scalable cloud-native platforms.",
