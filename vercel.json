@@ -1,4 +1,5 @@
 {
-  "buildCommand": "npm run build"
+  "version": 3,
+  "buildCommand": "bun run build"
 }
 
