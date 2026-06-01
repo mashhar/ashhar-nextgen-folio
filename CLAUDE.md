@@ -194,9 +194,22 @@ Global meta tags live in `src/routes/__root.tsx`.
 
 ## Deployment
 
-Configured for **Vercel** via `nitro.preset: "vercel"` in `vite.config.ts`.
+Configured for **Vercel** using Nitro's Vercel Build Output API (v3).
 
-Build output uses Nitro's Vercel adapter. On Vercel, the build command is `bun run build` and output directory is `.vercel/output`.
+**Configuration:**
+- `vite.config.ts` sets `nitro.preset: "vercel"` with output dir `.vercel/output`
+- `vercel.json` specifies Build Output API version 3
+- Build command: `npm run build` (uses Vite + Nitro)
+- Nitro automatically generates:
+  - `.vercel/output/config.json` — Vercel Build Output config
+  - `.vercel/output/static/` — Static assets (CSS, JS, images)
+  - `.vercel/output/functions/` — Serverless functions for SSR
+
+On Vercel, the framework detection is automatic. The build process:
+1. Runs `npm run build` (which executes `vite build`)
+2. Nitro compiles client bundle → `dist/client/`
+3. Nitro compiles SSR bundle → `node_modules/.nitro/`
+4. Nitro generates Vercel Build Output structure → `.vercel/output/`
 
 ## Current Portfolio Structure
 
