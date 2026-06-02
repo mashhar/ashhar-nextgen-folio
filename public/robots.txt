@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ashhar-nextgen-folio.lovable.app/sitemap.xml
