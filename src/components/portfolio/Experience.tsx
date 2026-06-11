@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const ROLES = [
 
   {
-    role: "Director – Data & Cloud Engineering",
+    role: "Director – Data Engineering & Cloud Engineering",
     company: "EXL",
     period: "2023 - Present",
     points: [
