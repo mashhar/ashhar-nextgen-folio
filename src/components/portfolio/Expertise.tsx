@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 const EXPERTISE = [
   "AI & Machine Learning Strategy",
   "Cloud Architecture (AWS, Azure)",
-  "Enterprise Data Platforms",
+  "Enterprise Data Engineering Platforms",
   "DevOps & Platform Engineering",
   "Digital Transformation",
   "Engineering Leadership",

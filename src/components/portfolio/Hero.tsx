@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const ROLES = [
   "AI & Cloud Engineering",
-  "Enterprise Data Platforms",
+  "Enterprise Data Engineering Platforms",
   "Engineering Leadership",
   "Digital Transformation",
 ];
@@ -39,8 +39,8 @@ export function Hero() {
           <p className="mt-7 max-w-2xl text-lg sm:text-xl leading-relaxed text-muted-foreground">
             Building intelligent enterprise platforms at the intersection of{" "}
             <span className="text-foreground">AI</span>,{" "}
-            <span className="text-foreground">cloud architecture</span>, and{" "}
-            <span className="text-foreground">data engineering</span> — turning data into measurable business outcomes.
+            <span className="text-foreground">Cloud</span> and{" "}
+            <span className="text-foreground">Data Engineering</span> — turning data into measurable business outcomes.
           </p>
 
 
@@ -93,7 +93,7 @@ export function Hero() {
           {[
             ["20+", "Years of experience"],
             ["6", "Global enterprises"],
-            ["13", "Certifications"],
+            ["15+", "Certifications"],
             ["∞", "Production systems"],
           ].map(([n, l]) => (
             <div key={l} className="bg-background/40 px-6 py-8 text-center">
