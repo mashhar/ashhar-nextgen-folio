@@ -16,7 +16,22 @@ const PROJECTS = [
     ],
     status: "Live",
   },
+  {
+    name: "WealthForge AI",
+    tagline: "AI-powered net worth & portfolio intelligence",
+    description:
+      "A personal wealth platform that tracks net worth across accounts and asset classes, then layers an AI assistant on top — answering questions on performance, allocation, diversification, and goal progress, and running scenario analyses like market crashes.",
+    href: "https://wealthforgeai.ashharnadeem.in",
+    stack: ["AI Assistant", "Portfolio Analytics", "Scenario Modelling", "Secure Auth"],
+    metrics: [
+      ["AI", "Chat insights"],
+      ["Multi-asset", "Net worth tracking"],
+      ["Live", "In production"],
+    ],
+    status: "Live",
+  },
 ];
+
 
 export function Projects() {
   return (
