@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/portfolio/ThemeToggle";
 
 const NAV = [
   { href: "#about", label: "About" },
@@ -50,6 +51,7 @@ export function Navbar() {
         >
           Connect
         </a>
+        <ThemeToggle />
       </nav>
     </header>
   );
