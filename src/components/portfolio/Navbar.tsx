@@ -51,6 +51,7 @@ export function Navbar() {
         >
           Connect
         </a>
+        <ThemeToggle />
       </nav>
     </header>
   );
