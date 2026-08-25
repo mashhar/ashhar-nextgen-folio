@@ -17,6 +17,7 @@ const TOOLS = [
 ];
 
 const CERTS = [
+  "Google Certified Partner Specialist: Gemini Enterprise Agent Development & Deployment",
   "AI Fundamentals (DataCamp)",
   "Scrum Alliance – CSPO",
   "Google Generative AI Fundamentals",
